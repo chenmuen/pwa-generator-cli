@@ -1,0 +1,35 @@
+{
+	"name": "pwa-generator-cli",
+	"version": "0.0.2",
+	"description": "A pwa generator",
+	"license": "MIT",
+	"author": {
+		"name": "moochen",
+		"email": "chenmuena@gmail.com",
+		"url": "https://github.com/chenmuen"
+	},
+	"bin": "cli.js",
+	"engines": {
+		"node": ">=4"
+	},
+	"files": [
+		"index.js",
+		"cli.js"
+	],
+	"keywords": [
+		"pwa",
+		"generator",
+		""
+	],
+	"dependencies": {
+		"commander": "^2.11.0",
+    "ejs": "^2.5.7",
+    "sw-precache": "^5.2.0",
+    "underscore": "^1.8.3",
+    "underscore-deep-extend": "^1.1.5"
+	},
+	"devDependencies": {
+		"ava": "^0.20.0",
+		"xo": "^0.18.2"
+	}
+}

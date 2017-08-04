@@ -1,0 +1,27 @@
+{
+	"buildDir": "dist",
+	"swRegisterLocation": "/service-worker.js",
+	"manifest": {
+		"name": "pwa-demo",
+		"short_name": "pwa",
+		"description": "This is Simple PWA",
+	  "lang": "cn",
+		"icons": [],
+	  "start_url": "/index.html",
+	  "display": "standalone",
+	  "orientation": "portrait",
+	  "theme_color": "#fff",
+	  "background_color": "#fff",
+	  "related_applications": []
+	},
+	"swPrecache": {
+		"cacheId": "pwa-demo-sw-cache",
+		"staticFileGlobs": [
+		    "dist/**/*.css",
+		    "dist/**/*.html",
+		    "dist/**/*.js"
+		  ],
+		  "stripPrefix": "dist",
+		  "runtimeCaching": []
+	}
+}

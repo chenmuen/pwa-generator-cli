@@ -1,0 +1,13 @@
+{
+  "name": "<%=name%>",
+  "short_name": "<%=short_name%>",
+  "description": "<%=description%>",
+  "lang": "<%=lang%>",
+  "icons": <%-JSON.stringify(icons)%>,
+  "start_url": "<%=start_url%>",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "<%=theme_color%>",
+  "background_color": "<%=background_color%>",
+  "related_applications": <%-JSON.stringify(related_applications)%>
+}
