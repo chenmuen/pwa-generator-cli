@@ -2,8 +2,8 @@
 	"buildDir": "dist",
 	"swRegisterLocation": "/service-worker.js",
 	"manifest": {
-		"name": "pwa-demo",
-		"short_name": "pwa",
+		"name": "app",
+		"short_name": "app short name",
 		"description": "This is Simple PWA",
 	  "lang": "cn",
 		"icons": [],

@@ -3,6 +3,7 @@
 	"version": "0.0.2",
 	"description": "A pwa generator",
 	"license": "MIT",
+	"repository": "https://github.com/chenmuen/pwa-generator-cli",
 	"author": {
 		"name": "moochen",
 		"email": "chenmuena@gmail.com",
